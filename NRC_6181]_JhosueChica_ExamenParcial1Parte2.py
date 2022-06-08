@@ -26,6 +26,22 @@ class Calculo():
     -------
     _init_(self, nombre, salario, proyecto):
         Construye todos los atributos necesarios para el objeto PersonalAcademico.
+    Factorial(n):
+
+    Suma(n):
+
+    testPrimo(n):
+
+    testPrimos():
+
+    tableMult(n):
+    
+    TablaMultiplicar():
+
+    listDiv():
+
+    listDivPrim():
+    
     """
      
     def __init__(self):
@@ -34,12 +50,6 @@ class Calculo():
         
         Parametros
         ----------
-        nombre : str 
-            Nombre del personal academico registrado 
-        apellido : str
-            Apellido del personal academico registrado 
-        edad : int
-            Edad del personal academico registrado 
         '''
         
     def Factorial(n):
@@ -63,7 +73,7 @@ class Calculo():
         print("Es primo")
         return True
 
-    def testPrimo():
+    def testPrimos():
         ''''''
 
     def tableMult(n):
@@ -79,9 +89,12 @@ class Calculo():
         print("")
 
     def listDiv():
-        
+        ''''''
 
+    def listDivPrim():
+        ''''''
 
+operaciones = Calculo()
 
 
 
